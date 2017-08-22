@@ -1,0 +1,41 @@
+{
+  "name": "test_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Addonmis/test_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Addonmis/test_2/issues"
+  },
+  "homepage": "https://github.com/Addonmis/test_2#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bulma": "^0.5.1",
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.5",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.4",
+    "webpack": "^3.5.5",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
