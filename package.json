@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node server/app.js"
+    "dev": "nodemon --exec babel-node server/app.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,6 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-0": "^6.24.1",
-    "cross-env": "^5.0.5",
     "css-loader": "^0.28.5",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
