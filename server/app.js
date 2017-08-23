@@ -1,6 +1,5 @@
 import express from 'express';
 import path from 'path';
-import bodyParser from 'body-parser';
 
 import webpackConfig from './config/webpackConfig';
 
@@ -15,8 +14,6 @@ app.listen(port, err => {
 });
 
 app.use("/dist", express.static('dist'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
 
 webpackConfig(app);
 
